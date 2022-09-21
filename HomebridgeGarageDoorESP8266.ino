@@ -15,13 +15,13 @@ const char* ssid = "ssid";
 const char* password = "password";
 
 //Homebridge URL
-const char* homebridgeURL = "http://192.168.1.2:2000"; // Include port number - one per garage door opener. Example: "http://192.168.1.2:2000"
+const char* homebridgeURL = "http://192.168.1.2:45674"; // Include port number - one per garage door opener. Example: "http://192.168.1.2:2000"
 
 
 // GPIO assignments
 #define PIN_OPERATOR_CONTROL 5 // Relay
 #define PIN_SENSOR_CLOSED     14 // Sensor at bottom of track
-#define PIN_SENSOR_OPENED     12 // Sensor at top of track
+#define PIN_SENSOR_OPENED     4 // Sensor at top of track
 
 //
 // That's all folks..
